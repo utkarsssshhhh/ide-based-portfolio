@@ -26,5 +26,5 @@ export const SidebarItem = ({ type, startIcon, text }: SidebarItemProps) => {
     );
   }
 
-  return null; // fallback (TypeScript ensures we don't usually hit this)
+  return null;
 };
