@@ -1,10 +1,12 @@
+import { MainWindow } from "./components/MainWindow";
 import { Sidebar } from "./components/Sidebar";
 
 
 function App(){
   return <>
-    <div className="bg-neutral-800">      
+    <div className="flex">      
       <Sidebar/>
+      <MainWindow/>
     </div>
   </>
 }

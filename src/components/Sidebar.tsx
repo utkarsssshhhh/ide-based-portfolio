@@ -9,8 +9,6 @@ import { LinkedinIcon } from "../icons/LinkedinIcon"
 import { ExperienceIcon } from "../icons/experienceIcon"
 import { TwitterIcon } from "../icons/TwitterIcon"
 
-
-
 export const Sidebar = ()=>{
     const [about, setAbout] = useState(true);
     const [sidebar, setSidebar] = useState(true);

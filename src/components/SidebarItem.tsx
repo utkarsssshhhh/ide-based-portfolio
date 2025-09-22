@@ -19,7 +19,7 @@ export const SidebarItem = ({ type, startIcon, text }: SidebarItemProps) => {
 
   if (type === "file") {
     return (
-      <div className="flex items-center gap-2 pl-8">
+      <div className="flex items-center gap-2 pl-8 pr-1">
         {startIcon}
         {text}
       </div>
